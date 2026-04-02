@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJA DE VIDA - JEAN MENA</title>
+</head>
+<body>
+    <center><h1>HOJA DE VIDA</h1></center>
+    <br>
+
+    <section>
+        <div style="width: 80%; border: solid 2px; margin: auto; padding: 15px;">
+            <center><img src="img/yo.jpeg" alt="Foto de Jean" width="150px" height="150px"></center>
+            <h2>DATOS PERSONALES</h2>
+            <ul>
+                <li><b>Nombre:</b> Jean Carlos</li>
+                <li><b>Apellidos:</b> Mena Ruano</li>
+                <li><b>Correo:</b> jkmena2019@gmail.com</li>
+                <li><b>Edad:</b> 20 años</li>
+                <li><b>Contacto:</b> 0988455422</li>
+            </ul>
+            <h3>Redes Sociales</h3>
+            <a href="https://www.facebook.com/profile.php?id=100004363548815" target="_blank">Ir a mi Facebook</a>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div style="width: 80%; margin: auto;">
+            <h2>ESTUDIOS REALIZADOS</h2>
+            <table border="2px" style="width: 100%; text-align: center;">
+                <tr>
+                    <th colspan="2">Institución</th>
+                    <th>Nivel</th>
+                    <th>Título Obtenido</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Institución Educativa Marquesa de Solanda</td>
+                    <td>Escuela</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Institución Educativa Fiscal Benito Juarez</td>
+                    <td>Colegio</td>
+                    <td>Bachiller Técnico Especialidad Informática</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><b>Instituto Superior Tecnológico Quito</b></td>
+                    <td rowspan="2">ITQ</td>
+                    <td>Superior</td>
+                    <td>En curso</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div style="width: 80%; margin: auto;">
+            <h2>CONOCIMIENTOS ACADÉMICOS</h2>
+            <ul style="list-style-type: square;">
+                <li>Programación</li>
+                <li>Manejo de Excel</li>
+                <li>Mantenimiento básico de computadoras</li>
+                <li>Edición Básica de videos</li>
+            </ul>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div style="width: 80%; margin: auto;">
+            <h2>REFERENCIAS PERSONALES</h2>
+            <p><b>0959860716</b> JORDAN LIONEL</p>
+            <p><b>0968841817</b> VERONICA MORALES</p>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div style="width: 80%; border: solid 1px; margin: auto; padding: 15px;">
+            <h2>CONTÁCTAME PARA ENTREVISTA</h2>
+            <form action="">
+                <div>
+                    <label for="empresa">Nombre de la empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                </div>
+                <br>
+                <div>
+                    <label for="motivo">Motivo:</label>
+                    <select name="motivo" id="motivo">
+                        <option value="trabajo">Oferta de trabajo</option>
+                        <option value="proyecto">Proyecto Freelance</option>
+                        <option value="otro">Otro</option>
+                    </select>  
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar Datos">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
