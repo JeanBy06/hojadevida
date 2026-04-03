@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>HOJA DE VIDA - JEAN MENA</title>
+</head>
+<body>
+    
+    <header class="cabecera-principal">
+        <h1>HOJA DE VIDA</h1>
+    </header>
+
+    <main class="contenedor-columnas">
+        
+        <aside class="columna-perfil">
+            <div class="tarjeta-perfil">
+                <img src="img/yo.jpeg" alt="Foto de Jean" width="150" height="150" class="foto">
+                <h2>DATOS PERSONALES</h2>
+                <ul>
+                    <li><b>Nombre:</b> Jean Carlos</li>
+                    <li><b>Apellidos:</b> Mena Ruano</li>
+                    <li><b>Correo:</b> jkmena2019@gmail.com</li>
+                    <li><b>Edad:</b> 20 años</li>
+                    <li><b>Contacto:</b> 0988455422</li>
+                </ul>
+                <h3 class="titulo-redes">Redes Sociales</h3>
+                <a href="https://www.facebook.com/profile.php?id=100004363548815" target="_blank" class="enlace-redes">Ir a mi Facebook</a>
+            </div>
+        </aside>
+
+        <section class="columna-estudios">
+            <h2>ESTUDIOS REALIZADOS</h2>
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th colspan="2">Institución</th>
+                        <th>Nivel</th>
+                        <th>Título Obtenido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Institución Educativa Marquesa de Solanda</td>
+                        <td>Escuela</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Institución Educativa Fiscal Benito Juarez</td>
+                        <td>Colegio</td>
+                        <td>Bachiller Técnico Especialidad Informática</td>
+                    </tr>
+                    <tr>
+                        <td><b>Instituto Superior Tecnológico Quito</b></td>
+                        <td>ITQ</td>
+                        <td>Superior</td>
+                        <td>En curso</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="columna-info">
+            <div class="bloque-info">
+                <h2>CONOCIMIENTOS ACADÉMICOS</h2>
+                <ul class="lista-cuadrada">
+                    <li>Programación</li>
+                    <li>Manejo de Excel</li>
+                    <li>Mantenimiento básico de computadoras</li>
+                    <li>Edición Básica de videos</li>
+                </ul>
+            </div>
+
+            <div class="bloque-info">
+                <h2>REFERENCIAS PERSONALES</h2>
+                <p><b>0959860716</b> JORDAN LIONEL</p>
+                <p><b>0968841817</b> VERONICA MORALES</p>
+            </div>
+        </section>
+
+        <section class="columna-formulario">
+            <div class="tarjeta-form">
+                <h2>CONTÁCTAME PARA ENTREVISTA</h2>
+                <form action="">
+                    <div class="grupo-input">
+                        <label for="empresa">Nombre de la empresa:</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </div>
+                    <div class="grupo-input">
+                        <label for="motivo">Motivo:</label>
+                        <select name="motivo" id="motivo">
+                            <option value="trabajo">Oferta de trabajo</option>
+                            <option value="proyecto">Proyecto Freelance</option>
+                            <option value="otro">Otro</option>
+                        </select>  
+                    </div>
+                    <div class="grupo-submit">
+                        <input type="submit" value="Enviar Datos">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>

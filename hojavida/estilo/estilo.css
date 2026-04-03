@@ -1,0 +1,67 @@
+/* Aqui van los estilos css */
+/* estilos universales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilo del body */
+/* RGB combinación de los tres colores primarios r rojo g verde b azul */
+/* El rango real de cada color es de 0 a 255 */
+body {
+    background-color: rgb(70, 70, 70);
+    font-family: Arial, sans-serif; /* Corregido: Era font-family */
+    color: #ffffff; /* Texto blanco para que resalte en el fondo gris oscuro */
+}
+
+/* Estilo de tu título principal */
+h1 {
+    background-color: rgb(53, 72, 92);
+    width: 66%;
+    margin: 20px auto; /* auto ayuda a centrar el cuadro */
+    text-align: center;
+    padding: 15px;
+    color: rgb(255, 255, 255); /* Le quité la transparencia para que se lea */
+}
+
+/* Clase para el contenedor de la imagen que aprendiste */
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilo de la foto */
+img {
+    width: 150px; /* Ajustado para que no ocupe toda la pantalla */
+    margin: 10px;
+    border-radius: 50%; /* Esto hace la imagen redonda, muy buen toque */
+}
+
+/* Fuentes para textos normales */
+p, li, td, th, label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Aplicando el div que te enseñaron a las secciones de tu CV */
+.seccion-cv {
+    background-color: #646464;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(53, 72, 92);
+}
+
+/* Un poco de estilo básico para que tu tabla no se rompa */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(80, 80, 80);
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
